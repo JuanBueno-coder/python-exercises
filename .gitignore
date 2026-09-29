@@ -1,0 +1,6 @@
+node_modules/
+desktop.ini
+.env
+.ipynb_checkpoints
+*.ipynb
+.vscode
