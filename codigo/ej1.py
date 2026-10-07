@@ -16,5 +16,5 @@ for i in range(3):
             print("Piensas en cosas grandes, piensa en cosas mas chicas")
     except ValueError:
         print("Eso no era un numero genio")
-print("nada no lo adivinaste que malo eres")
+print("nada no lo adivinaste que malo, feo y tonto eres")
 sys.exit()
