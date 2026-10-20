@@ -1,34 +1,14 @@
-class Producto:
-    def __init__(self, idProducto, nombre, piezas):
-        self.__idProducto = idProducto
-        self.__nombre = nombre
-        self.__piezas = piezas
+from fabrica.Producto import Producto
+from fabrica.PiezaMetalica import PiezaMetalica
+from fabrica.PiezaPlastico import PiezaPlastico
 
-    def agregarPieza(self, oPieza):
-        print(Pieza)
 
-    
-class Pieza:
-    def __init__(self, idPieza, peso, precio, urlFabricante):
-        self.__idPieza = idPieza
-        self.__peso = peso
-        self.__precio = precio
-        self.__urlFabricante = urlFabricante
-    def __str__(self):
-        return f"{self.__idPieza} {self.__peso} {self.__precio} {self.__urlFabricante}"
-    @property
-    def idPieza(self):
-        return self.__idPieza
-
-    @property
-    def peso(self):
-        return self.__peso
-    @property
-    def precio(self):
-        return self.__precio
-    @property
-    def urlFabricante(self):
-        return self.__urlFabricante
-p = Pieza("P1", 50, 2.5, "Ejemplo")
-
-print(p.peso)
+palaExcabadora = PiezaPlastico("3728d",324, 32.32, "juanbueno.com", 100)
+excabadora = Producto(123123, "excabadora")
+medidorAire = PiezaMetalica("239832d", 42421, 3213, "maria.com", "adamantio")
+print(excabadora.agregarPieza(palaExcabadora))
+print(excabadora.agregarPieza(medidorAire))
+print(excabadora.listadoPiezas())
+print(excabadora.precioProducto())
+print(excabadora.pesoProducto())
+print(excabadora.agregarPieza(palaExcabadora))
