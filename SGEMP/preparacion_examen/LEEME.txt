@@ -1,0 +1,14 @@
+PREPARACION EXAMEN PYTHON SGEMP - viernes 20/11/2026
+=====================================================
+El plan completo (temario, simulacros, plan diario) esta en el documento
+"SGEMP · Examen de Python 20/11 — Plan de comeback" de Claude.
+En el examen NO hay internet: lo que necesites, tenlo AQUI en local.
+
+kit/      Plantillas probadas + chuleta Python vs Java (abre la chuleta en el examen)
+            plantilla_poo.py                      -> Ejercicio 1 (clases, @property, herencia)
+            plantilla_estructuras_funcional.py    -> Ejercicio 2 (tuplas, dict, sin bucles, fichero)
+            plantilla_ficheros.py                 -> leer/escribir CSV y texto
+            plantilla_bbdd.py                     -> MySQL con pymysql (INSERT, SELECT, UPDATE, DELETE, GROUP BY)
+            chuleta_python_vs_java.md
+datos/    Ficheros de los simulacros (S2 notas.csv, S5 socios.*, S7 pedidos.csv + feria.sql, S8 almacen.sql + movimientos.txt)
+mis_simulacros/   Guarda aqui tus soluciones: s1.py, s2.py, ... (pegamelas en el chat para corregir)

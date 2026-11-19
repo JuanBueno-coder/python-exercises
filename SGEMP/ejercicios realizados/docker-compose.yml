@@ -1,0 +1,21 @@
+version: "3.8"
+services:
+  jupyterlab:
+    image: jupyter/base-notebook
+    ports:
+      - "8888:8888"
+    environment:
+      - JUPYTER_TOKEN=''
+      - JUPYTER_PASSWORD=''
+      - JUPYTER_ENABLE_LAB=yes
+    command: start-notebook.sh --NotebookApp.token='' --NotebookApp.password=''
+    volumes:
+      - ./codigo:/home/jovyan/work
+ # <-- LE DICES QUE ESA RED YA EXISTE
+    
+#     networks:
+#       - docker-lamp_backend #  Conectamos a la red externa
+
+# networks:
+#   docker-lamp_backend: # Declaramos que existe, pero no la creamos
+#     external: true

@@ -1,0 +1,7 @@
+num_pedido,mesa,producto,precio,unidades,fecha_hora
+1,3,Serranito,3.50,2,2026-11-20 13:40:00
+2,3,Cruzcampo,1.80,3,2026-11-20 13:41:00
+3,5,Pringá,2.80,4,2026-11-20 13:50:00
+4,1,Solomillo al whisky,4.20,2,2026-11-20 14:02:00
+5,5,Tinto de verano,2.50,4,2026-11-20 14:05:00
+6,3,Espinacas con garbanzos,3.00,1,2026-11-20 14:10:00
